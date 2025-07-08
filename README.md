@@ -55,9 +55,22 @@ The app uses Tkinter to provide a simple and intuitive interface:
 | ➤ Strength: Weak                         |
 | ➤ Suggestions:                           |
 |    - Add more characters                  |
-|    - Use at least one special character   |
+|    - Use at 
+least one special character   |
 +-------------------------------------------+
 ```
+### 📂 Project Structure
+```
+password-strength-checker/
+├── password_checker.py         # Main Python GUI application
+├── README.md                   # Project documentation
+```
+
+## 🧠 How It Works
+- The app uses Regex to validate password patterns.
+- Optionally, it uses NLTK's English word corpus to flag dictionary words.
+- Password strength is scored based on entropy and best practices.
+- Suggestions are generated dynamically based on missing elements.
 
 ## 🚀 How to Run the Project
 1. Clone the repository
@@ -73,19 +86,8 @@ pip install nltk
 ```
 python password_checker.py
 ```
+## 📸 Screenshots
+<img width="375" alt="output" src="https://github.com/user-attachments/assets/84a08771-b454-4ef8-82c9-c7bafcfa3130" />
 
-### 📂 Project Structure
-```
-password-strength-checker/
-├── password_checker.py         # Main Python GUI application
-├── README.md                   # Project documentation
-``` 
-
-## 🧠 How It Works
-- The app uses Regex to validate password patterns.
-- Optionally, it uses NLTK's English word corpus to flag dictionary words.
-- Password strength is scored based on entropy and best practices.
-- Suggestions are generated dynamically based on missing elements.
-
-## 📄 License
+### 📄 License
 MIT License — Open to contributions and modifications.
